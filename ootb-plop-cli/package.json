@@ -1,0 +1,12 @@
+{
+  "name": "ootb-plop-cli",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "clean:gen": "find . -name \"__generated__\" -exec rm -rf '{}' +",
+    "plop": "plop"
+  },
+  "devDependencies": {
+    "plop": "^2.7.4"
+  }
+}

@@ -1,0 +1,16 @@
+import { Story } from "@storybook/react";
+import React from "react";
+
+import { {{name}} } from "../components/{{name}}";
+import { {{name}}Props } from "../types";
+
+export default {
+  component: Button,
+  title: "Design System/{{name}}/{{name}}",
+};
+
+export const _{{name}}: Story<{{name}}Props> = (args) => {
+  return (
+    <{{name}} {...args} />
+  );
+};

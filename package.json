@@ -1,0 +1,12 @@
+{
+  "name": "spike-cli-generation",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "run:ootb-plop-cli": "yarn workspace ootb-plop-cli plop"
+  },
+  "workspaces": [
+    "ootb-plop-cli"
+  ]
+}
