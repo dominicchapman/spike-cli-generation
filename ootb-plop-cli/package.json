@@ -4,7 +4,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "clean:gen": "find . -name \"__generated__\" -exec rm -rf '{}' +",
-    "plop": "plop"
+    "gen:primitive": "plop"
   },
   "devDependencies": {
     "plop": "^2.7.4"

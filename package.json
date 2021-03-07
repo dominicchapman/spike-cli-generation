@@ -7,6 +7,7 @@
     "run:ootb-plop-cli": "yarn workspace ootb-plop-cli plop"
   },
   "workspaces": [
-    "ootb-plop-cli"
+    "ootb-plop-cli",
+    "hygen"
   ]
 }

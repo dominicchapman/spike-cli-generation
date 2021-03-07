@@ -5,13 +5,13 @@ module.exports = function (plop) {
       {
         type: "input",
         name: "name",
-        message: "Primitive name: ",
+        message: "Primitive name:",
       },
     ],
     actions: [
       {
         type: "addMany",
-        destination: "__generated__/{{name}}",
+        destination: "__generated__/{{dashCase name}}",
         templateFiles: "__templates__/primitive/**/*.hbs",
         base: "__templates__/primitive",
       },
