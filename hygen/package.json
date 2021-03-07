@@ -1,0 +1,12 @@
+{
+  "name": "hygen",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "clean:gen": "find . -name \"__generated__\" -exec rm -rf '{}' +",
+    "gen:primitive": "yarn hygen primitive new --name"
+  },
+  "devDependencies": {
+    "hygen": "^6.0.4"
+  }
+}
