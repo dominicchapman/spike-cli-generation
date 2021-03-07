@@ -17,3 +17,13 @@ The `ootb-plop-cli` workspace shows how Plop can be used to generate a design sy
 The `hygen` workspace shows how Hygen can be used to generate a design system primitive. After initializing Hygen with `npx hygen init self` we can use the `new` generator that is generated for us (so meta) to create our own generators. We create a primitive generator with `npx hygen generator new primitive`, fill the contents of the `primitive/new` directory with desired output and make use of Hygen [helpers and inflections](https://www.hygen.io/docs/templates#helpers-and-inflections) within the EJS to craft the output.
 
 <p align="center"><img src="/docs/hygen.png"/></p>
+
+### Prior Art
+
+- [Bison](https://github.com/echobind/bisonapp/tree/canary/packages/create-bison-app/template/_templates) templates using Hygen
+- [Redwood](https://github.com/redwoodjs/redwood/tree/main/packages/cli/src/commands/generate/component) custom generation from `.tsx` template
+- [Comparison] between Hygen and Plop from Bison author
+
+### General Thoughts
+
+Using Handlebars and EJS makes for a poor DX, with error prone text editor format-on-save and lack of linting. Reaching for fully custom CLI like the Redwood example linked could improve DX, but we would lose the benefits of the templating engines (conditionals, case modifiers, etc.).
