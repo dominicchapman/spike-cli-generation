@@ -22,7 +22,7 @@ The `hygen` workspace shows how Hygen can be used to generate a design system pr
 
 - [Bison](https://github.com/echobind/bisonapp/tree/canary/packages/create-bison-app/template/_templates) templates using Hygen
 - [Redwood](https://github.com/redwoodjs/redwood/tree/main/packages/cli/src/commands/generate/component) custom generation from `.tsx` template
-- [Comparison] between Hygen and Plop from Bison author
+- [Comparison](https://github.com/redwoodjs/redwood/issues/653#issuecomment-678495240) between Hygen and Plop from Bison author
 
 ### General Thoughts
 
